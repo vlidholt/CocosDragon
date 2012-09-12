@@ -22,7 +22,6 @@
  * THE SOFTWARE.
  */
 
-#import "cocos2d.h"
 #import "GameObject.h"
 
 @interface Coin : GameObject

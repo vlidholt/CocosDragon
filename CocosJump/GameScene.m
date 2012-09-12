@@ -23,9 +23,7 @@
  */
 
 #import "GameScene.h"
-#import "Level.h"
 #import "CCBReader.h"
-#import "Dragon.h"
 
 static GameScene* sharedScene;
 
@@ -45,7 +43,7 @@ static GameScene* sharedScene;
     self.score = 0;
     
     // Load the level
-    level = (Level*)[CCBReader nodeGraphFromFile:@"Level.ccbi"];
+    level = [CCBReader nodeGraphFromFile:@"Level.ccbi"];
     
     // And add it to the game scene
     [levelLayer addChild:level];

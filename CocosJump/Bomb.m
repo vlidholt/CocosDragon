@@ -28,11 +28,6 @@
 
 @implementation Bomb
 
-- (float) radius
-{
-    return 15;
-}
-
 - (void) handleCollisionWith:(GameObject *)gameObject
 {
     if ([gameObject isKindOfClass:[Dragon class]])
@@ -44,6 +39,11 @@
         explosion.position = self.position;
         [self.parent addChild:explosion];
     }
+}
+
+- (float) radius
+{
+    return 15;
 }
 
 @end

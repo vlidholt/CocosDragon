@@ -22,8 +22,6 @@
  * THE SOFTWARE.
  */
 
-#import "cocos2d.h"
-
 @class Level;
 
 @interface GameScene : CCLayer
@@ -31,7 +29,7 @@
     CCLayer* levelLayer;
     CCLabelTTF* scoreLabel;
     
-    Level* level;
+    CCNode* level;
     int score;
 }
 

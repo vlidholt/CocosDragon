@@ -23,7 +23,6 @@
  */
 
 #import "GameObject.h"
-#import "cocos2d.h"
 #import "CCBAnimationManager.h"
 
 @interface Explosion : GameObject <CCBAnimationManagerDelegate>

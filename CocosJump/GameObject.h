@@ -22,8 +22,6 @@
  * THE SOFTWARE.
  */
 
-#import "CCNode.h"
-
 @interface GameObject : CCNode
 {
     BOOL isScheduledForRemove;

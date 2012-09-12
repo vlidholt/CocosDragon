@@ -30,11 +30,6 @@
 
 @synthesize isEndCoin;
 
-- (float) radius
-{
-    return 15;
-}
-
 - (void) handleCollisionWith:(GameObject *)gameObject
 {
     if ([gameObject isKindOfClass:[Dragon class]])
@@ -47,6 +42,11 @@
         
         self.isScheduledForRemove = YES;
     }
+}
+
+- (float) radius
+{
+    return 15;
 }
 
 @end

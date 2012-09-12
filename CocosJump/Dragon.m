@@ -91,8 +91,6 @@
         // Hit a bomb
         if (ySpeed > 0) ySpeed = 0;
         
-        NSLog(@"self: %@ self.userObject: %@", self, self.userObject);
-        
         CCBAnimationManager* animationManager = self.userObject;
         NSLog(@"animationManager: %@", animationManager);
         [animationManager runAnimationsForSequenceNamed:@"Hit"];

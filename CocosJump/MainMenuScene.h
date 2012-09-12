@@ -22,8 +22,6 @@
  * THE SOFTWARE.
  */
 
-#import "cocos2d.h"
-
 @interface MainMenuScene : CCLayer
 
 @end
